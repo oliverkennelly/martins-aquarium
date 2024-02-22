@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: rgb(4, 4, 33);
+    background-color: rgb(173, 173, 234);
+}
+.greeting {
+    font-family: cursive;
+    font-style: italic;
+    color:rgb(18, 76, 69);
+}
+.locations {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(152, 234, 206);
+    flex: 0 0 80px;
+    flex-direction: row;
+    padding: 40px 0px;
+}
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+}
+.polaroid {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+}
+.gallery {
+    display: flex;
+    border: 1px solid black;
+    
+}
+.desc {
+    padding: 15px;
+    font-size: medium;
+}
