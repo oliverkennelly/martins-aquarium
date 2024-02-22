@@ -66,7 +66,7 @@ const database = {
         }
     ]
  } 
-
+//exports a copy of our fish
  export const getFish = () => {
     return database.fish.map(fish => ({...fish}))
 }
